@@ -1,4 +1,12 @@
-package org.example.chessDesignLLD.version1;
+package org.example.chessDesignLLD.main;
+
+import org.example.chessDesignLLD.board.ChessBoard;
+import org.example.chessDesignLLD.color.Color;
+import org.example.chessDesignLLD.game.BoardGame;
+import org.example.chessDesignLLD.game.Chess;
+import org.example.chessDesignLLD.piece.*;
+import org.example.chessDesignLLD.player.ChessPlayer;
+import org.example.chessDesignLLD.player.HumanChessPlayer;
 
 import java.util.HashMap;
 import java.util.Map;

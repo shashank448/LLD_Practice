@@ -1,4 +1,4 @@
-package org.example.chessDesignLLD.version1;
+package org.example.chessDesignLLD.cell;
 
 public class Pair {
     private final int x;

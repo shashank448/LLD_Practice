@@ -1,4 +1,6 @@
-package org.example.chessDesignLLD.version1;
+package org.example.chessDesignLLD.cell;
+
+import org.example.chessDesignLLD.piece.ChessPiece;
 
 import java.util.Optional;
 

@@ -1,4 +1,6 @@
-package org.example.chessDesignLLD.version1;
+package org.example.chessDesignLLD.board;
+
+import org.example.chessDesignLLD.cell.Pair;
 
 public class Move {
     private final Pair source;

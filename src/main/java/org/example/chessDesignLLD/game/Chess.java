@@ -1,9 +1,13 @@
-package org.example.chessDesignLLD.version1;
+package org.example.chessDesignLLD.game;
+
+import org.example.chessDesignLLD.board.ChessBoard;
+import org.example.chessDesignLLD.player.ChessPlayer;
+import org.example.chessDesignLLD.piece.PieceName;
+import org.example.chessDesignLLD.player.Player;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Queue;
 
 public class Chess extends BoardGame{
     private final ChessPlayer player1, player2;

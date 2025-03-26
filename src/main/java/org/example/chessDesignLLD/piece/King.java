@@ -1,11 +1,15 @@
-package org.example.chessDesignLLD.version1;
+package org.example.chessDesignLLD.piece;
 
-public class Bishop implements ChessPiece{
+import org.example.chessDesignLLD.board.ChessBoard;
+import org.example.chessDesignLLD.cell.ChessCell;
+import org.example.chessDesignLLD.color.Color;
+
+public class King implements ChessPiece{
     private final Color color;
     private final PieceName name;
     private boolean isDead;
 
-    public Bishop(Color color, PieceName name, boolean isDead) {
+    public King(Color color, PieceName name, boolean isDead) {
         this.color = color;
         this.name = name;
         this.isDead = isDead;
@@ -30,7 +34,6 @@ public class Bishop implements ChessPiece{
     public PieceName getName() {
         return this.name;
     }
-
     @Override
     public Color getColor() {
         return this.color;

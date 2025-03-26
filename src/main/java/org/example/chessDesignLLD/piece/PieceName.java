@@ -1,4 +1,4 @@
-package org.example.chessDesignLLD.version1;
+package org.example.chessDesignLLD.piece;
 
 public enum PieceName {
     KING,

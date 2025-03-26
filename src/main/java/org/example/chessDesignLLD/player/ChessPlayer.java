@@ -1,6 +1,9 @@
-package org.example.chessDesignLLD.version1;
+package org.example.chessDesignLLD.player;
 
-import java.util.HashMap;
+import org.example.chessDesignLLD.board.ChessBoard;
+import org.example.chessDesignLLD.piece.ChessPiece;
+import org.example.chessDesignLLD.piece.PieceName;
+
 import java.util.Map;
 
 public abstract class ChessPlayer extends Player{

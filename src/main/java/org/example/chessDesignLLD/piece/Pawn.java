@@ -1,11 +1,15 @@
-package org.example.chessDesignLLD.version1;
+package org.example.chessDesignLLD.piece;
 
-public class King implements ChessPiece{
+import org.example.chessDesignLLD.board.ChessBoard;
+import org.example.chessDesignLLD.cell.ChessCell;
+import org.example.chessDesignLLD.color.Color;
+
+public class Pawn implements ChessPiece{
     private final Color color;
     private final PieceName name;
     private boolean isDead;
 
-    public King(Color color, PieceName name, boolean isDead) {
+    public Pawn(Color color, PieceName name, boolean isDead) {
         this.color = color;
         this.name = name;
         this.isDead = isDead;
@@ -18,12 +22,12 @@ public class King implements ChessPiece{
 
     @Override
     public boolean isDead() {
-        return false;
+        return isDead;
     }
 
     @Override
     public void setDead(boolean isDead) {
-
+        this.isDead = isDead;
     }
 
     @Override

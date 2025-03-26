@@ -1,4 +1,8 @@
-package org.example.chessDesignLLD.version1;
+package org.example.chessDesignLLD.board;
+
+import org.example.chessDesignLLD.cell.ChessCell;
+import org.example.chessDesignLLD.piece.ChessPiece;
+import org.example.chessDesignLLD.cell.Pair;
 
 import java.util.ArrayList;
 import java.util.List;

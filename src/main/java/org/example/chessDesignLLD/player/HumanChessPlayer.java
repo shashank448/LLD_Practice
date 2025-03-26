@@ -1,4 +1,10 @@
-package org.example.chessDesignLLD.version1;
+package org.example.chessDesignLLD.player;
+
+import org.example.chessDesignLLD.board.ChessBoard;
+import org.example.chessDesignLLD.board.Move;
+import org.example.chessDesignLLD.cell.Pair;
+import org.example.chessDesignLLD.piece.ChessPiece;
+import org.example.chessDesignLLD.piece.PieceName;
 
 import java.util.Map;
 import java.util.Optional;

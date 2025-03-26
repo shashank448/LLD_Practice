@@ -1,4 +1,8 @@
-package org.example.chessDesignLLD.version1;
+package org.example.chessDesignLLD.game;
+
+import org.example.chessDesignLLD.board.Board;
+import org.example.chessDesignLLD.board.Move;
+import org.example.chessDesignLLD.player.Player;
 
 import java.util.Queue;
 

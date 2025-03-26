@@ -1,4 +1,8 @@
-package org.example.chessDesignLLD.version1;
+package org.example.chessDesignLLD.piece;
+
+import org.example.chessDesignLLD.board.ChessBoard;
+import org.example.chessDesignLLD.cell.ChessCell;
+import org.example.chessDesignLLD.color.Color;
 
 public class Knight implements ChessPiece {
     private final Color color;

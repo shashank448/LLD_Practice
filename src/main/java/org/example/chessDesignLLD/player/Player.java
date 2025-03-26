@@ -1,4 +1,6 @@
-package org.example.chessDesignLLD.version1;
+package org.example.chessDesignLLD.player;
+
+import org.example.chessDesignLLD.board.Move;
 
 public abstract class Player {
     private final String name;

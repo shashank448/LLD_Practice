@@ -1,4 +1,4 @@
-package org.example.chessDesignLLD.version1;
+package org.example.chessDesignLLD.board;
 
 public interface Board {
     void applyMove(Move move);
