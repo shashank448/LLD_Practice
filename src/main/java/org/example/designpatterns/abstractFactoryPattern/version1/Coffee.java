@@ -11,6 +11,6 @@ public abstract class Coffee {
         this.milk = milk;
     }
 
-    public void brew();
-    public void boil();
+    public abstract void brew();
+    public abstract void boil();
 }
