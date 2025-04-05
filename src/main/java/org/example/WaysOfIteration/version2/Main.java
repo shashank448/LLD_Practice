@@ -12,7 +12,7 @@ public class Main {
         display(bst);
 
         LinkedList ll = new LinkedList(new LinkedListNode(0, null));
-        display(ll);
+        //display(ll);
 
 
     }
